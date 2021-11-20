@@ -100,21 +100,33 @@ ex) ✨ [FEAT] : main.js POST Complete
 📂 functions
     📂 api
         📂 routes
-            📂 {route} → 각 URI에 해당하는 폴더
-        📜 index.js → 루트 라우터, 라우팅 기본 설정
-    📂 config → 환결 설정을 위한 폴더
-        📜 dbConfig.js → DB에 접속하기 위한 이름, 비밀번호등을 담은 파일
-    📂 constants → 일관된 메시지 전송을 위한 상수 모음
-        📜 responseMessage.js → response message 저장
-        📜 statusCode.js → status code 저장
-    📂 db → DB (postgresql) 와 연동을 위한 폴더
-        📜 db.js → postgresql과 firebase를 연결
-        📜 index.js → module.exports로 밑의 {route}들을 꺼내줌
-        📜 {route}.js → route 별로 쿼리문을 함수로 만들어 둔 파일들
-    📂 lib → 프로젝트에서 편리하기 사용할 수 있는 라이브러리 모음
-        📜 convertSnakeToCamel.js → json을 camel to snake / snake to camel로 변경해줌
-        📜 util.js → response의 success, fail의 형태를 미리 정의
-    📂 node_modules → JS 패키지 관리 폴더
+            📂 main
+                📜 index.js
+                📜 mainIdGET.js
+            📂 mission
+                📜 index.js
+                📜 missionIdGET.js
+            📂 user
+                📜 index.js
+                📜 userIdGET.js
+                📜 userPOST.js
+            📜 index.js
+        📜 index.js
+    📂 config
+        📜 dbConfig.js
+    📂 constants
+        📜 responseMessage.js
+        📜 statusCode.js
+    📂 db
+        📜 db.js
+        📜 index.js
+        📜 main.js
+        📜 mission.js
+        📜 user.js
+    📂 lib
+        📜 convertSnakeToCamel.js
+        📜 util.js
+    📂 node_modules
     📜 index.js
     📜 .env
     📜 .eslintrc.js
@@ -124,6 +136,7 @@ ex) ✨ [FEAT] : main.js POST Complete
 📦 .firebaserc
 📦 .gitignore
 📦 firebase.json
+📦 README.md
 ```
 
 ---
