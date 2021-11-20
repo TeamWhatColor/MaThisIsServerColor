@@ -14,8 +14,7 @@ const getUserById = async (client, id) => {
   return rows.length === 1;
 };
 
-const createUser = async (client, id, nickname) => {
-  const teamId = Math.floor(Math.random() * 3) + 1;
+const createUser = async (client, id, nickname, lowestTeam) => {
   const { rows } = await client.query(
     `
     INSERT INTO "user"
@@ -24,10 +23,21 @@ const createUser = async (client, id, nickname) => {
     ($1, $2, $3)
     RETURNING *
     `,
-    [id, nickname, teamId],
+    [id, nickname, lowestTeam],
   );
 
   return convertSnakeToCamel.keysToCamel(rows[0]);
 };
 
-module.exports = { getUserById, createUser };
+const getLowestTeam = async (client) => {
+  const { rows } = await client.query(
+    `
+    SELECT team_id FROM "user"
+    GROUP BY team_id
+    ORDER BY count(*)
+    `,
+  );
+  return convertSnakeToCamel.keysToCamel(rows[0]).teamId;
+};
+
+module.exports = { getUserById, createUser, getLowestTeam };
