@@ -15,6 +15,8 @@
 |           [최영재](https://github.com/realwhyjay)            |             [이동근](https://github.com/geeneve)             |
 |                       메인 뷰, 미션 뷰                       |                  스플래시 뷰, 유져 입력 뷰                   |
 
+
+
 </div>
 
 
