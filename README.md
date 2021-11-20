@@ -163,5 +163,4 @@ ex) ✨ [FEAT] : main.js POST Complete
 
 <img width="592" alt="스크린샷 2021-11-21 오전 6 39 03" src="https://user-images.githubusercontent.com/49263163/142741636-ac4b7ee1-2738-4ce7-9aff-93af546509c0.png">
 
-우린서버다이색이야🎨
 
