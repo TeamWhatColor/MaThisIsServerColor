@@ -134,15 +134,18 @@ ex) ✨ [FEAT] : main.js POST Complete
 
 ## 📌 ERD
 
-<img width="545" alt="스크린샷 2021-11-21 오전 4 00 22" src="https://user-images.githubusercontent.com/49263163/142738059-ca2f84f1-6b7f-46aa-948f-2dbaa607f87b.png">
+![whatColorERD](https://user-images.githubusercontent.com/49263163/142741608-01c282be-9219-4429-916a-fbc517855a22.png)
 
 
 
 ## 📌 Datagrip에서 생성한 Table 정의
 
-<img width="731" alt="스크린샷 2021-11-21 오전 4 03 41" src="https://user-images.githubusercontent.com/49263163/142738172-96ad12f5-7543-4d5d-a628-cfac1114dce6.png">
-<img width="731" alt="스크린샷 2021-11-21 오전 4 03 27" src="https://user-images.githubusercontent.com/49263163/142738177-e1dfad68-6a7a-4629-abaa-3a0a080fcb08.png">
-<img width="731" alt="스크린샷 2021-11-21 오전 4 03 56" src="https://user-images.githubusercontent.com/49263163/142738179-ef7dc5bb-a63f-4d51-b09d-f44ac8785920.png">
+
+<img width="593" alt="스크린샷 2021-11-21 오전 6 39 13" src="https://user-images.githubusercontent.com/49263163/142741634-5b81f6a6-3204-4945-b823-b46f341a3ccd.png">
+
+<img width="593" alt="스크린샷 2021-11-21 오전 6 39 24" src="https://user-images.githubusercontent.com/49263163/142741631-47f576ad-8181-47f5-b180-e4f559ffebfc.png">
+
+<img width="592" alt="스크린샷 2021-11-21 오전 6 39 03" src="https://user-images.githubusercontent.com/49263163/142741636-ac4b7ee1-2738-4ce7-9aff-93af546509c0.png">
 
 우린서버다이색이야🎨
 
