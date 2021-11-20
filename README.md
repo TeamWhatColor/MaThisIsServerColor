@@ -13,7 +13,7 @@
 | ![youngjae](https://user-images.githubusercontent.com/49263163/142730145-227e5da0-a5f7-4b8f-bf15-7da89f223cd4.png) | ![dong](https://user-images.githubusercontent.com/49263163/142730195-372b99b2-7487-4cf7-b86e-34b26d51d921.png) |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
 |           [최영재](https://github.com/realwhyjay)            |             [이동근](https://github.com/geeneve)             |
-|                                                              |                                                              |
+|                              메인뷰, 미션뷰                                |                              스플래쉬 뷰, 유져 입력 뷰                              |
 
 </div>
 
