@@ -4,8 +4,7 @@ const convertSnakeToCamel = require('../lib/convertSnakeToCamel');
 const getAllUsers = async (client) => {
   const { rows } = await client.query(
     `
-    SELECT * FROM "table_name" u
-    WHERE is_deleted = FALSE
+    SELECT * FROM table_name
     `,
   );
   return convertSnakeToCamel.keysToCamel(rows);
