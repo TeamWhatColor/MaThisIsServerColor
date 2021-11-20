@@ -15,8 +15,6 @@
 |           [최영재](https://github.com/realwhyjay)            |             [이동근](https://github.com/geeneve)             |
 |                       메인 뷰, 미션 뷰                       |                  스플래시 뷰, 유져 입력 뷰                   |
 
-
-
 </div>
 
 
@@ -50,22 +48,28 @@ ex) ✨ [FEAT] : main.js POST Complete
 ------
 
 - ✅ [CHORE] : 코드 수정, 내부 파일 수정
+
 - ✨ [FEAT] : 새로운 기능 구현
+
 - ➕ [ADD] : Feat 이외의 부수적인 코드 추가, 라이브러리 추가, 새로운 파일 생성 시
+
 - 🍱 [ADD] : 에셋 추가
+
 - 🚑️ [HOTFIX] : issue나, QA에서 급한 버그 수정에 사용
+
 - 🔨 [FIX] : 버그, 오류 해결
+
 - ⚰️ [DEL] : 쓸모없는 코드 삭제
+
 - 📝 [DOCS] : README나 WIKI 등의 문서 개정
-- 💄 [MOD] : storyboard 파일,UI 수정한 경우
+
 - ✏️ [CORRECT] : 주로 문법의 오류나 타입의 변경, 이름 변경 등에 사용합니다.
-- 🚚 [MOVE] : 프로젝트 내 파일이나 코드의 이동
-- ⏪️ [RENAME] : 파일 이름 변경이 있을 때 사용합니다.
+
 - ⚡️ [IMPROVE] : 향상이 있을 때 사용합니다.
+
 - ♻️ [REFACTOR] : 전면 수정이 있을 때 사용합니다
-- 🔀 [MERGE]: 다른브렌치를 merge 할 때 사용합니다.
 
-
+  
 
 ### **+ 지원이 추천하는 코드 컨벤션 🌰 **
 
@@ -96,21 +100,33 @@ ex) ✨ [FEAT] : main.js POST Complete
 📂 functions
     📂 api
         📂 routes
-            📂 {route} → 각 URI에 해당하는 폴더
-        📜 index.js → 루트 라우터, 라우팅 기본 설정
-    📂 config → 환결 설정을 위한 폴더
-        📜 dbConfig.js → DB에 접속하기 위한 이름, 비밀번호등을 담은 파일
-    📂 constants → 일관된 메시지 전송을 위한 상수 모음
-        📜 responseMessage.js → response message 저장
-        📜 statusCode.js → status code 저장
-    📂 db → DB (postgresql) 와 연동을 위한 폴더
-        📜 db.js → postgresql과 firebase를 연결
-        📜 index.js → module.exports로 밑의 {route}들을 꺼내줌
-        📜 {route}.js → route 별로 쿼리문을 함수로 만들어 둔 파일들
-    📂 lib → 프로젝트에서 편리하기 사용할 수 있는 라이브러리 모음
-        📜 convertSnakeToCamel.js → json을 camel to snake / snake to camel로 변경해줌
-        📜 util.js → response의 success, fail의 형태를 미리 정의
-    📂 node_modules → JS 패키지 관리 폴더
+            📂 main
+                📜 index.js
+                📜 mainIdGET.js
+            📂 mission
+                📜 index.js
+                📜 missionIdGET.js
+            📂 user
+                📜 index.js
+                📜 userIdGET.js
+                📜 userPOST.js
+            📜 index.js
+        📜 index.js
+    📂 config
+        📜 dbConfig.js
+    📂 constants
+        📜 responseMessage.js
+        📜 statusCode.js
+    📂 db
+        📜 db.js
+        📜 index.js
+        📜 main.js
+        📜 mission.js
+        📜 user.js
+    📂 lib
+        📜 convertSnakeToCamel.js
+        📜 util.js
+    📂 node_modules
     📜 index.js
     📜 .env
     📜 .eslintrc.js
@@ -120,9 +136,29 @@ ex) ✨ [FEAT] : main.js POST Complete
 📦 .firebaserc
 📦 .gitignore
 📦 firebase.json
+📦 README.md
 ```
 
+---
 
+## 📌 package.json 캡쳐
+
+<img width="545" alt="스크린샷 2021-11-21 오전 4 00 22" src="https://user-images.githubusercontent.com/49263163/142738088-655d7f55-1cc7-42ca-8694-8f4c750f3a5a.png">
+
+## 📌 ERD
+
+![whatColorERD](https://user-images.githubusercontent.com/49263163/142741608-01c282be-9219-4429-916a-fbc517855a22.png)
+
+
+
+## 📌 Datagrip에서 생성한 Table 정의
+
+
+<img width="593" alt="스크린샷 2021-11-21 오전 6 39 13" src="https://user-images.githubusercontent.com/49263163/142741634-5b81f6a6-3204-4945-b823-b46f341a3ccd.png">
+
+<img width="593" alt="스크린샷 2021-11-21 오전 6 39 24" src="https://user-images.githubusercontent.com/49263163/142741631-47f576ad-8181-47f5-b180-e4f559ffebfc.png">
+
+<img width="592" alt="스크린샷 2021-11-21 오전 6 39 03" src="https://user-images.githubusercontent.com/49263163/142741636-ac4b7ee1-2738-4ce7-9aff-93af546509c0.png">
 
 우린서버다이색이야🎨
 
