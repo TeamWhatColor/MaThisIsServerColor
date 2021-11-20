@@ -15,8 +15,6 @@
 |           [최영재](https://github.com/realwhyjay)            |             [이동근](https://github.com/geeneve)             |
 |                       메인 뷰, 미션 뷰                       |                  스플래시 뷰, 유져 입력 뷰                   |
 
-
-
 </div>
 
 
@@ -50,22 +48,28 @@ ex) ✨ [FEAT] : main.js POST Complete
 ------
 
 - ✅ [CHORE] : 코드 수정, 내부 파일 수정
+
 - ✨ [FEAT] : 새로운 기능 구현
+
 - ➕ [ADD] : Feat 이외의 부수적인 코드 추가, 라이브러리 추가, 새로운 파일 생성 시
+
 - 🍱 [ADD] : 에셋 추가
+
 - 🚑️ [HOTFIX] : issue나, QA에서 급한 버그 수정에 사용
+
 - 🔨 [FIX] : 버그, 오류 해결
+
 - ⚰️ [DEL] : 쓸모없는 코드 삭제
+
 - 📝 [DOCS] : README나 WIKI 등의 문서 개정
-- 💄 [MOD] : storyboard 파일,UI 수정한 경우
+
 - ✏️ [CORRECT] : 주로 문법의 오류나 타입의 변경, 이름 변경 등에 사용합니다.
-- 🚚 [MOVE] : 프로젝트 내 파일이나 코드의 이동
-- ⏪️ [RENAME] : 파일 이름 변경이 있을 때 사용합니다.
+
 - ⚡️ [IMPROVE] : 향상이 있을 때 사용합니다.
+
 - ♻️ [REFACTOR] : 전면 수정이 있을 때 사용합니다
-- 🔀 [MERGE]: 다른브렌치를 merge 할 때 사용합니다.
 
-
+  
 
 ### **+ 지원이 추천하는 코드 컨벤션 🌰 **
 
@@ -122,7 +126,23 @@ ex) ✨ [FEAT] : main.js POST Complete
 📦 firebase.json
 ```
 
+---
 
+## 📌 package.json 캡쳐
+
+<img width="545" alt="스크린샷 2021-11-21 오전 4 00 22" src="https://user-images.githubusercontent.com/49263163/142738088-655d7f55-1cc7-42ca-8694-8f4c750f3a5a.png">
+
+## 📌 ERD
+
+<img width="545" alt="스크린샷 2021-11-21 오전 4 00 22" src="https://user-images.githubusercontent.com/49263163/142738059-ca2f84f1-6b7f-46aa-948f-2dbaa607f87b.png">
+
+
+
+## 📌 Datagrip에서 생성한 Table 정의
+
+<img width="731" alt="스크린샷 2021-11-21 오전 4 03 41" src="https://user-images.githubusercontent.com/49263163/142738172-96ad12f5-7543-4d5d-a628-cfac1114dce6.png">
+<img width="731" alt="스크린샷 2021-11-21 오전 4 03 27" src="https://user-images.githubusercontent.com/49263163/142738177-e1dfad68-6a7a-4629-abaa-3a0a080fcb08.png">
+<img width="731" alt="스크린샷 2021-11-21 오전 4 03 56" src="https://user-images.githubusercontent.com/49263163/142738179-ef7dc5bb-a63f-4d51-b09d-f44ac8785920.png">
 
 우린서버다이색이야🎨
 
