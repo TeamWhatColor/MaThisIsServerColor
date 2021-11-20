@@ -1,10 +1,11 @@
 # MaThisIsServerColor
-![2076](https://user-images.githubusercontent.com/49263163/142741937-574073d9-13ea-487c-8ce0-ca3191e99e80.png)
 
 
 ## 📌 서비스 이름과 소개 
 
 <div align="center"> 
+	![2076](https://user-images.githubusercontent.com/49263163/142741937-574073d9-13ea-487c-8ce0-ca3191e99e80.png)
+
 색깔로 정해지는 N개의 팀! 미션을 통해 컬러 메이트를 찾아라!  <br>
 <b>🎨너 무슨 색이야?! </b>
 </div>
