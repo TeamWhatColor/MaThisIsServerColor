@@ -6,9 +6,9 @@ const getMainUser = async (client, id) => {
     `
         SELECT u.nickname, t.color,m.content
         FROM "user" u JOIN team t
-            on u.team_id = t.team_id
+            on u.team_id = t.id
          JOIN mission m
-            on t.mission_id = m.mission_id
+            on t.mission_id = m.id
         WHERE u.id = $1;
         `,
     [id],
